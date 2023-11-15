@@ -3,7 +3,6 @@ def calculadora(num1, num2, num_operacao):
     elif (num_operacao == 2): return num1 - num2
     elif (num_operacao == 3): return num1 * num2
     elif (num_operacao == 4): return num1 / num2
-    elif (num_operacao == 5): return print('Sair')
     else: return 0
 
 calculadora_on_off = True
